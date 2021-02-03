@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Swap_text</string>
+    <string name="hello_world">Hello world!</string>
+	<string name="gn">GN</string>
+	<string name="gm">GM</string>
+	<string name="ge">GE</string>
+	<string name="ga">GA</string>
+</resources>

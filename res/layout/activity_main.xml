@@ -1,0 +1,51 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="${relativePackage}.${activityClass}" >
+    <Button
+        android:id="@+id/btn_gm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/btn_gn"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="84dp"
+        android:onClick="Change_text"
+        android:text="@string/gm" />
+
+    <Button
+        android:id="@+id/btn_ga"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/btn_gm"
+        android:layout_marginLeft="18dp"
+        android:onClick="Change_text"
+        android:layout_marginTop="46dp"
+        
+        android:text="@string/ga" />
+
+    <Button
+        android:id="@+id/btn_ge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/btn_ga"
+        android:layout_alignBottom="@+id/btn_ga"
+        android:layout_alignParentRight="true"
+        android:onClick="Change_text"
+        android:layout_marginRight="15dp"
+        
+        android:text="@string/ge" />
+
+    <Button
+        android:id="@+id/btn_gn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btn_ga"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="52dp"
+        android:onClick="Change_text"
+        
+        android:text="@string/gn" />
+
+</RelativeLayout>
